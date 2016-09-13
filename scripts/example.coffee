@@ -19,6 +19,9 @@ module.exports = (robot) ->
        res.reply "I'm afraid I can't let you do that."
      else
        res.reply "Opening #{doorType} doors"
+
+   robot.respond /where are you?/i, (res) ->
+     res.reply "I'm living in the cloud at https://brainspin-bot.herokuapp.com"
   #
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
