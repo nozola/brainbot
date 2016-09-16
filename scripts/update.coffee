@@ -10,7 +10,6 @@
 # Commands:
 #   brainbot open the <type of door> doors - Opens the doors, unless they are pod bay doors.
 #   brainbot where are you - Displays the Heroku URL for Brainbot
-#   brainbot update - Displays how to update Brainbot in Github and Heroku.
 #   brainbot how do i update you - Displays how to update Brainbot in Github and Heroku.
 #
 # Notes:
