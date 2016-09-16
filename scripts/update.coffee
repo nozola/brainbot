@@ -33,8 +33,7 @@ module.exports = (robot) ->
    robot.respond /how do i update you/i | /update/i, (res) ->
      res.reply "_Strive for continuous improvement, instead of perfection._\n_ - Kim Collins_\n\n
 So you want to update me huh?\n\n
-First run this command to push me to github:\n
+Run this command to push me to github and Heroku will automatically deploy:\n
 `git push origin master`\n
-Then run this command to push me to Heroku:\n
-`git push heroku master`\n
-_(https://github.com/github/hubot/blob/master/docs/deploying/heroku.md)_"
+_(https://github.com/github/hubot/blob/master/docs/deploying/heroku.md)_\n
+_(https://dashboard.heroku.com/apps/brainspin-bot/deploy/github)_"
