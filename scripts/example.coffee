@@ -22,6 +22,9 @@ module.exports = (robot) ->
 
    robot.respond /where are you?/i, (res) ->
      res.reply "I'm living in the cloud at https://brainspin-bot.herokuapp.com"
+
+   robot.respond /how do I update you?/i, (res) ->
+     res.reply "You can update me with this command in the terminal: git push origin [master|heroku]"
   #
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
