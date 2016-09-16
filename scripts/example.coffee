@@ -13,24 +13,12 @@ module.exports = (robot) ->
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
-   robot.respond /open the (.*) doors/i, (res) ->
-     doorType = res.match[1]
-     if doorType is "pod bay"
-       res.reply "I'm afraid I can't let you do that."
-     else
-       res.reply "Opening #{doorType} doors"
-
-   robot.respond /where are you?/i, (res) ->
-     res.reply "I'm living in the cloud at https://brainspin-bot.herokuapp.com"
-
-   robot.respond /how do I update you?/i, (res) ->
-     res.reply "_Strive for continuous improvement, instead of perfection._\n_ - Kim Collins_\n\n
-So you want to update me huh?\n\n
-First run this command to push me to github:\n
-`git push origin master`\n
-Then run this command to push me to Heroku:\n
-`git push heroku master`\n
-_(https://github.com/github/hubot/blob/master/docs/deploying/heroku.md)_"
+  # robot.respond /open the (.*) doors/i, (res) ->
+  #   doorType = res.match[1]
+  #   if doorType is "pod bay"
+  #     res.reply "I'm afraid I can't let you do that."
+  #   else
+  #     res.reply "Opening #{doorType} doors"
   #
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
