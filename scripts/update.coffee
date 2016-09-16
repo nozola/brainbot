@@ -30,7 +30,7 @@ module.exports = (robot) ->
    robot.respond /where are you/i, (res) ->
      res.reply "I'm living in the cloud at https://brainspin-bot.herokuapp.com"
 
-   robot.respond /how do i update you/i | /update/i, (res) ->
+   robot.respond /how do i update you/i, (res) ->
      res.reply "_Strive for continuous improvement, instead of perfection._\n_ - Kim Collins_\n\n
 So you want to update me huh?\n\n
 Run this command to push me to github and Heroku will automatically deploy:\n
