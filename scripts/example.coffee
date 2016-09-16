@@ -24,8 +24,8 @@ module.exports = (robot) ->
      res.reply "I'm living in the cloud at https://brainspin-bot.herokuapp.com"
 
    robot.respond /how do I update you?/i, (res) ->
-     res.reply "_Strive for continuous improvement, instead of perfection._\n_ - Kim Collins_\n
-     So you want to update me huh?\n
+     res.reply "_Strive for continuous improvement, instead of perfection._\n_ - Kim Collins_\n\n
+     So you want to update me huh?\n\n
      First run this command to push me to github:\n
      `git push origin master`\n
      Then run this command to push me to Heroku:\n
